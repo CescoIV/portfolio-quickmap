@@ -1,0 +1,18 @@
+/* This is a css reset */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.page{
+    height: 100vh;
+    background-color: red;
+}
+.intro{
+    background-color: green;
+}
