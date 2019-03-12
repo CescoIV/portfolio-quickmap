@@ -8,7 +8,24 @@
     vertical-align: baseline;
     background: transparent;
 }
-
+.header{
+    height: 5vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+.header-menu{
+    width:50vw;
+    display: flex;
+    flex-direction: row;
+}
+.headerBox{
+    flex: 1;
+    background-color: rgba(0,0,0,.5);
+}
 .page{
     height: 100vh;
     background-color: red;
