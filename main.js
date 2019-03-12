@@ -7,7 +7,7 @@ function generateHeaderMenu(){
 
     headerTitles.forEach(title=>{
         let myDiv = document.createElement("div");
-        myDiv.classList.add('headerBox');
+        myDiv.classList.add('header-box');
         myDiv.innerHTML = `${title}`;
 
         header.appendChild(myDiv);

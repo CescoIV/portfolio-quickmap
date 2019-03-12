@@ -10,7 +10,7 @@
 }
 .header{
     height: 5vh;
-    width: 100vw;
+    width: 100%;
     background-color: black;
     color: white;
     position: absolute;
@@ -22,9 +22,14 @@
     display: flex;
     flex-direction: row;
 }
-.headerBox{
+.header-box{
+    height: 5vh;
     flex: 1;
     background-color: rgba(0,0,0,.5);
+}
+.header-box:hover{
+    background-color: white;
+    color:black;
 }
 .page{
     height: 100vh;
